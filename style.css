@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin-top: 100px;
+}
+
+
+#hero {
+  height: 60vh;
+  /* add Space_Transportation as background image */
+}
+
+#hero-img {
+  /* add position */
+  /* and if you want transition effects */
+}
+
+#hero:hover #hero-img {
+  /* animate size position and rotation */
+}
+
+/* comment above and uncomment bellow: why this doesn't work well?? */
+/* #hero-img:hover{
+    transform: scale(.3) translate(-50px, -250px) rotate(3turn);
+} */
+
+main {
+    width: 90vw;
+    margin: auto;
+    background-color: thistle;
+  }
